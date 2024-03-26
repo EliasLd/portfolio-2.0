@@ -1,10 +1,12 @@
+import Dark from "./components/Dark";
 
 function App() {
   return (
     <div>
-      hello 
+       <Dark />
     </div>
   );
 }
 
 export default App;
+
