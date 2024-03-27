@@ -9,19 +9,19 @@
     {
         "name": "Portfolio",
         "Desc": "Site web personnel pour référencer mes projets",
-        "Techs": ["React, Tailwind"],
+        "Techs": ["React", "Tailwind"],
         "GitHubLink": "https://github.com/EliasLd/portfolio-2.0"
     },
     {
         "name": "Duinoshoot",
         "Desc": "Petit jeu type spaceinvader sur carte Arduino Nano",
-        "Techs": ["C, C++, Arduino"],
+        "Techs": ["C", "C++", "Arduino"],
         "GitHubLink": "https://github.com/EliasLd/DUINOSHOOT"
     },
     {
         "name": "ESP-Media",
         "Desc": "Système d'applications avec écran tactile fonctionnant sur une carte ESP-WROOM-32",
-        "Techs": ["C, C++"],
+        "Techs": ["C", "C++"],
         "GitHubLink": "https://github.com/EliasLd/ESP-MEDIA"
     },
     {
