@@ -1,0 +1,34 @@
+[
+    {
+        "name": "SourceJob",
+        "Desc": "Une application de gestion de candidatures",
+        "Techs": ["MongoDB", "Express", "React", "Node", "Tailwind"],
+        "GitHubLink": "https://github.com/EliasLd/SourceJob",
+        "AppLink": "https://6601fbad846d9b5d6aa710dd--extraordinary-granita-4ae876.netlify.app",
+        "Photo": "sourcejob.png"
+    },
+    {
+        "name": "Portfolio",
+        "Desc": "Site web personnel pour référencer mes projets",
+        "Techs": ["React", "Tailwind"],
+        "GitHubLink": "https://github.com/EliasLd/portfolio-2.0"
+    },
+    {
+        "name": "Duinoshoot",
+        "Desc": "Petit jeu type spaceinvader sur carte Arduino Nano",
+        "Techs": ["C", "C++", "Arduino"],
+        "GitHubLink": "https://github.com/EliasLd/DUINOSHOOT"
+    },
+    {
+        "name": "ESP-Media",
+        "Desc": "Système d'applications avec écran tactile fonctionnant sur une carte ESP-WROOM-32",
+        "Techs": ["C", "C++"],
+        "GitHubLink": "https://github.com/EliasLd/ESP-MEDIA"
+    },
+    {
+        "name": "Mots-glissés",
+        "Desc": "Jeux avec interface console, sauvegarde et lecture des plateaux de jeu",
+        "Techs": ["C#"],
+        "GitHubLink": "https://github.com/EliasLd/MOTS-GLISSES"
+    }
+]
