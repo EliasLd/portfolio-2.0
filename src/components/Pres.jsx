@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { Animate } from 'react-simple-animate';
+import { Link } from 'react-router-dom';
 
 import { TypeAnimation } from 'react-type-animation';
 import { FaLinkedin } from "react-icons/fa6";
@@ -43,37 +43,43 @@ export default function Pres() {
             </div>
             <div className='flex flex-row justify-center gap-x-12 relative'>
                 <div className='flex flex-col items-center'>
-                    <FaLinkedin 
-                        size={30} color='white' className='cursor-pointer' 
-                        onMouseEnter={() => setHovered('LinkedIn')} onMouseLeave={() => setHovered(null)} 
-                    />
-                    {hovered === 'LinkedIn' && (
-                        <div className='absolute top-0 mt-16 text-white text-sm slide-top bg-sky-700 px-2 py-1 rounded-full'>
-                            <p className='text-sm font-inter text-slate-100'>LinkedIn</p>
-                        </div>
-                    )}
+                    <a href='https://www.linkedin.com/in/elias-el-abd-5a1857292/' className='flex justify-center'>
+                        <FaLinkedin 
+                            size={30} color='white' className='cursor-pointer' 
+                            onMouseEnter={() => setHovered('LinkedIn')} onMouseLeave={() => setHovered(null)} 
+                        />
+                        {hovered === 'LinkedIn' && (
+                            <div className='absolute top-0 mt-16 text-white text-sm slide-top bg-sky-700 px-2 py-1 rounded-full'>
+                                <p className='text-sm font-inter text-slate-100'>LinkedIn</p>
+                            </div>
+                        )}
+                    </a>
                 </div>
                 <div className='flex flex-col items-center'>
-                    <FaGithub 
-                        size={30} color='white' className='cursor-pointer'
-                        onMouseEnter={() => setHovered('GitHub')} onMouseLeave={() => setHovered(null)} 
-                    />
-                    {hovered === 'GitHub' && (
-                        <div className='absolute top-0 mt-16 text-white text-sm slide-top bg-sky-700 px-2 py-1 rounded-full'>
-                            <p className='text-sm font-inter text-slate-100'>GitHub</p>
-                        </div>
-                    )}
+                    <a href='https://github.com/EliasLd' className='flex justify-center'>
+                        <FaGithub 
+                            size={30} color='white' className='cursor-pointer' 
+                            onMouseEnter={() => setHovered('GitHub')} onMouseLeave={() => setHovered(null)} 
+                        />
+                        {hovered === 'GitHub' && (
+                            <div className='absolute top-0 mt-16 text-white text-sm slide-top bg-sky-700 px-2 py-1 rounded-full'>
+                                <p className='text-sm font-inter text-slate-100'>GitHub</p>
+                            </div>
+                        )}
+                    </a>
                 </div>
                 <div className='flex flex-col items-center'>
-                    <MdOutlineFileDownload 
-                        size={30} color='white' className='cursor-pointer'
-                        onMouseEnter={() => setHovered('Download')} onMouseLeave={() => setHovered(null)} 
-                    />
-                    {hovered === 'Download' && (
-                        <div className='absolute top-0 mt-16 text-white text-sm slide-top bg-sky-700 px-2 py-1 rounded-full'>
-                            <p className='text-sm font-inter text-slate-100'>CV</p>
-                        </div>
-                    )}
+                    <a href='/CV.pdf' download className='flex justify-center'>
+                        <MdOutlineFileDownload 
+                            size={30} color='white' className='cursor-pointer'
+                            onMouseEnter={() => setHovered('Download')} onMouseLeave={() => setHovered(null)} 
+                        />
+                        {hovered === 'Download' && (
+                            <div className='absolute top-0 mt-16 text-white text-sm slide-top bg-sky-700 px-2 py-1 rounded-full'>
+                                <p className='text-sm font-inter text-slate-100'>CV</p>
+                            </div>
+                         )}
+                    </a>
                 </div>
             </div>
         </div>
