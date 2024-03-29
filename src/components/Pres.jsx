@@ -69,7 +69,7 @@ export default function Pres() {
                     </a>
                 </div>
                 <div className='flex flex-col items-center'>
-                    <a href='/CV.pdf' download className='flex justify-center'>
+                    <a href={process.env.PUBLIC_URL + '/CV.pdf'} download className='flex justify-center'>
                         <MdOutlineFileDownload 
                             size={30} color='white' className='cursor-pointer'
                             onMouseEnter={() => setHovered('Download')} onMouseLeave={() => setHovered(null)} 
