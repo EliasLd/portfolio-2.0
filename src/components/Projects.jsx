@@ -28,11 +28,11 @@ export default function Projects() {
 
   return (
     <div className='flex justify-center mt-10'>
-        <div className='grid grid-cols-2 gap-5 p-4'>
+        <div className='grid grid-cols-2 p-4 gap-5'>
             {projectsList.map((project, i) => (
-                <div key={i} className='flex flex-col p-3 rounded-3xl bg-sky-800'>
-                    
-                </div>
+              <div key={i} >
+                  {/* will add projects details */}
+              </div>
             ))}
         </div>
     </div>

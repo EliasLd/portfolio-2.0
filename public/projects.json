@@ -4,7 +4,8 @@
         "Desc": "Une application de gestion de candidatures",
         "Techs": ["MongoDB", "Express", "React", "Node", "Tailwind"],
         "GitHubLink": "https://github.com/EliasLd/SourceJob",
-        "AppLink": "https://6601fbad846d9b5d6aa710dd--extraordinary-granita-4ae876.netlify.app"
+        "AppLink": "https://6601fbad846d9b5d6aa710dd--extraordinary-granita-4ae876.netlify.app",
+        "Photo": "sourcejob.png"
     },
     {
         "name": "Portfolio",
