@@ -1,39 +1,39 @@
 [
     {
         "name": "SourceJob",
-        "Desc": "Une Web-application de gestion de candidatures.",
-        "Techs": ["MongoDB", "Express", "React", "Node", "Tailwind"],
+        "Desc": "A web application for managing job applications.",
+        "Techs": ["MongoDB", "Express", "React", "Node", "Tailwind", "software"],
         "GitHubLink": "https://github.com/EliasLd/SourceJob",
         "AppLink": "https://eliasld.github.io/SourceJob/",
         "imageName": "sourcejob.png"
     },
     {
         "name": "Portfolio",
-        "Desc": "Site web personnel pour référencer mes projets.",
-        "Techs": ["React", "Tailwind"],
+        "Desc": "Personal website to reference my projects. You're on it !",
+        "Techs": ["React", "Tailwind", "Software"],
         "GitHubLink": "https://github.com/EliasLd/portfolio-2.0",
         "AppLink":"",
         "imageName":"designPortfolio.jpg"
     },
     {
         "name": "Duinoshoot",
-        "Desc": "Petit jeu type spaceinvader sur carte Arduino Nano.",
-        "Techs": ["C", "C++", "Arduino"],
+        "Desc": "Small spaceinvader type game on Arduino Nano board.",
+        "Techs": ["C", "C++", "Arduino", "Electronics", "Hardware"],
         "GitHubLink": "https://github.com/EliasLd/DUINOSHOOT",
         "AppLink":"",
-        "imageName":""
+        "imageName":"DUINOSHOOT.png"
     },
     {
         "name": "ESP-Media",
-        "Desc": "Système d'applications avec écran tactile fonctionnant sur une carte ESP-WROOM-32.",
-        "Techs": ["C", "C++"],
+        "Desc": "Application system with touch screen on ESP-32 board",
+        "Techs": ["C", "C++", "ESP-WROOM-32", "Electronics", "Hardware"],
         "GitHubLink": "https://github.com/EliasLd/ESP-MEDIA",
         "AppLink":"",
-        "imageName":""
+        "imageName":"ESPMEDIA.png"
     },
     {
-        "name": "Mots-glissés",
-        "Desc": "Jeux avec interface console, sauvegarde et lecture des plateaux de jeu.",
+        "name": "Slipwords",
+        "Desc": "Game with console interface, saving and reading game boards.",
         "Techs": ["C#"],
         "GitHubLink": "https://github.com/EliasLd/MOTS-GLISSES",
         "AppLink":"",
