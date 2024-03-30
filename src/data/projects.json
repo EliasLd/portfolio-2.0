@@ -32,11 +32,11 @@
         "imageName":"ESPMEDIA.png"
     },
     {
-        "name": "Slipwords",
-        "Desc": "Game with console interface, saving and reading game boards.",
-        "Techs": ["C#"],
+        "name": "Sliced words",
+        "Desc": " Word console game with saving and reading game boards.",
+        "Techs": ["C#", "NuGet"],
         "GitHubLink": "https://github.com/EliasLd/MOTS-GLISSES",
         "AppLink":"",
-        "imageName":""
+        "imageName":"coding.png"
     }
 ]
