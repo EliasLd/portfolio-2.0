@@ -15,7 +15,7 @@ export default function Pres() {
   return (
     <div className='flex justify-center mt-10'>
         <div className='flex flex-col gap-y-8'>
-            <div className='text-xl font-sans font-bold text-blue-300'>
+            <div className=' text-lg sm:text-xl font-sans font-bold text-blue-300'>
                 <TypeAnimation
                     sequence={[
                       "Hi, I'm Elias !",

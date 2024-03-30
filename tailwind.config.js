@@ -12,7 +12,15 @@ export default {
       fontFamily: {
         'sans': ['Montserrat', 'sans-serif'],
         'inter': ['Inter', 'sans-serif'],
+      },
+      spacing: {
+        '128': '32rem',
+        '144': '70rem',
       }
+    },
+    screens: {
+      'lg': '1182px',
+      'sm': '580px',
     },
   },
   plugins: [
