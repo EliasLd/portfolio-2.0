@@ -8,8 +8,8 @@ import VisitButton from './VisitButton';
 export default function ProjectsDetails({project}) {
 
   const appearing = {
-    visible: { opacity: 1, scale: 1, transition: { duration: 2} },
-    hidden: { opacity: 0, sclae: 0},
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.5} },
+    hidden: { opacity: 0, scale: 0.90},
   };
 
   const ctrl = useAnimation();
