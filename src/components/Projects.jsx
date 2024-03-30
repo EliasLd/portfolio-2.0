@@ -1,5 +1,5 @@
 import projects from '../data/projects.json';
-import ProjectsDetails from './ProjectsDetails';
+import ProjectBox from './ProjectBox';
 
 export default function Projects() {
   return (
@@ -7,10 +7,10 @@ export default function Projects() {
       <div className='mb-16'>
         <p className='font-sans font-bold text-white text-2xl'>Projects</p>
       </div>
-        <div className='grid grid-cols-2 p-4 gap-5 bg-sky-800 rounded-xl'>
+        <div className='grid grid-cols-2 p-4 gap-2 bg-slate-700 rounded-xl'>
             {projects.map((project, i) => (
               <div>
-                  <ProjectsDetails key={i} project={project} />
+                  <ProjectBox key={i} project={project} />
               </div>
             ))}
         </div>
