@@ -3,11 +3,12 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import GitHubButton from './GitHubButton';
+import VisitButton from './VisitButton';
 
 export default function ProjectsDetails({project}) {
 
   const appearing = {
-    visible: { opacity: 1, scale: 1, transition: { duration: 1} },
+    visible: { opacity: 1, scale: 1, transition: { duration: 2} },
     hidden: { opacity: 0, sclae: 0},
   };
 
@@ -44,8 +45,9 @@ export default function ProjectsDetails({project}) {
             <div className='mt-3'>
               <p className='font-inter font-semibold'>{project.Desc}</p>
             </div>
-            <div className='flex justify-center mt-5'>
+            <div className='flex justify-center mt-5 flex-row gap-x-3'>
               <GitHubButton link={project.GitHubLink} />
+              {project.AppLink !== "" && <VisitButton link={project.AppLink} />}
             </div>
           </div>
         </motion.div>
