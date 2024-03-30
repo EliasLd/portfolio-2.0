@@ -2,6 +2,7 @@ import React from 'react'
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import GitHubButton from './GitHubButton';
 
 export default function ProjectsDetails({project}) {
 
@@ -43,8 +44,8 @@ export default function ProjectsDetails({project}) {
             <div className='mt-3'>
               <p className='font-inter font-semibold'>{project.Desc}</p>
             </div>
-            <div>
-              
+            <div className='flex justify-center mt-5'>
+              <GitHubButton link={project.GitHubLink} />
             </div>
           </div>
         </motion.div>
