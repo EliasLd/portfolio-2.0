@@ -12,7 +12,7 @@
         "Desc": "Site web personnel pour référencer mes projets.",
         "Techs": ["React", "Tailwind"],
         "GitHubLink": "https://github.com/EliasLd/portfolio-2.0",
-        "imageName":""
+        "imageName":"designPortfolio.jpg"
     },
     {
         "name": "Duinoshoot",

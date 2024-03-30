@@ -32,8 +32,8 @@ export default function ProjectsDetails({project}) {
             <div className='flex justify-center my-4'>
               <p className='font-sans font-bold text-3xl'>{project.name}</p>
             </div>
-            <div className=''>
-              {project.imageName !== "" && <img src={IMG(project.imageName)} alt='' className='w-full border-2 border-slate-300 rounded-3xl mb-3'/>}
+            <div className='flex justify-center'>
+              {project.imageName !== "" && <img src={IMG(project.imageName)} alt='' className=' object-contain  border-2 border-slate-300 rounded-xl mb-3'/>}
             </div>
             <ul className='flex flex-row gap-1 justify-start flex-wrap mt-2'>
               {project.Techs.map((tech, i) => (
