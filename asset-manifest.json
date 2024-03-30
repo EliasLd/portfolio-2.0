@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio-2.0/static/css/main.56732245.css",
-    "main.js": "/portfolio-2.0/static/js/main.bbece957.js",
+    "main.js": "/portfolio-2.0/static/js/main.29f08784.js",
     "static/media/designPortfolio.jpg": "/portfolio-2.0/static/media/designPortfolio.b081228f78cc8acb2e7d.jpg",
     "static/media/sourcejob.png": "/portfolio-2.0/static/media/sourcejob.c658d517d58fd056c1a7.png",
     "static/media/ESPMEDIA.png": "/portfolio-2.0/static/media/ESPMEDIA.d0bed0036e646692aeca.png",
     "static/media/flatPortfolio.svg": "/portfolio-2.0/static/media/flatPortfolio.942d14fe601b2a3e50e8.svg",
     "static/media/DUINOSHOOT.png": "/portfolio-2.0/static/media/DUINOSHOOT.4a30492403942b87f419.png",
+    "static/media/coding.png": "/portfolio-2.0/static/media/coding.0940aaad386e49456fb9.png",
     "static/media/personFlat.svg": "/portfolio-2.0/static/media/personFlat.7ae7f6f280fa3a57493f8ba3de4d9a96.svg",
     "index.html": "/portfolio-2.0/index.html",
     "main.56732245.css.map": "/portfolio-2.0/static/css/main.56732245.css.map",
-    "main.bbece957.js.map": "/portfolio-2.0/static/js/main.bbece957.js.map"
+    "main.29f08784.js.map": "/portfolio-2.0/static/js/main.29f08784.js.map"
   },
   "entrypoints": [
     "static/css/main.56732245.css",
-    "static/js/main.bbece957.js"
+    "static/js/main.29f08784.js"
   ]
 }
