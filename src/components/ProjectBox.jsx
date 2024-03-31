@@ -45,7 +45,7 @@ export default function ProjectsDetails({project}) {
             <div className='mt-3'>
               <p className='font-inter font-semibold'>{project.Desc}</p>
             </div>
-            <div className='flex justify-center mt-5 flex-row gap-x-2 xs:gap-x-3'>
+            <div className='flex justify-center mt-5 flex-col xs:flex-row gap-y-2 gap-x-2 xs:gap-x-3'>
               <GitHubButton link={project.GitHubLink} />
               {project.AppLink !== "" && <VisitButton link={project.AppLink} />}
             </div>

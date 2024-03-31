@@ -2,7 +2,7 @@
     {
         "name": "SourceJob",
         "Desc": "A web application for managing job applications.",
-        "Techs": ["MongoDB", "Express", "React", "Node", "Tailwind", "software"],
+        "Techs": ["MongoDB", "Express", "React", "Node", "Tailwind", "Software"],
         "GitHubLink": "https://github.com/EliasLd/SourceJob",
         "AppLink": "https://eliasld.github.io/SourceJob/",
         "imageName": "sourcejob.png"
@@ -10,7 +10,7 @@
     {
         "name": "Portfolio",
         "Desc": "Personal website to reference my projects. You're on it !",
-        "Techs": ["React", "Tailwind", "Software"],
+        "Techs": ["React", "Tailwind"],
         "GitHubLink": "https://github.com/EliasLd/portfolio-2.0",
         "AppLink":"",
         "imageName":"designPortfolio.jpg"
