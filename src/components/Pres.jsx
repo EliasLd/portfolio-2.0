@@ -15,7 +15,7 @@ export default function Pres() {
   return (
     <div className='flex justify-center mt-10'>
         <div className='flex flex-col gap-y-8'>
-            <div className=' text-lg sm:text-xl font-sans font-bold text-blue-300'>
+            <div className=' text-md sm:text-3xl font-sans font-bold text-blue-300'>
                 <TypeAnimation
                     sequence={[
                       "Hi, I'm Elias !",
@@ -34,11 +34,11 @@ export default function Pres() {
                 />
             </div>
             <div className='flex justify-center'>
-                <p className='font-inter font-semibold text-md text-slate-400'>Engineering student</p>
+                <p className='font-inter font-semibold text-md sm:text-xl text-slate-400'>Engineering student</p>
             </div>
             <div className='flex justify-center'>
                 <div className='px-3 rounded-full bg-sky-900'>
-                    <img src={flat} alt='' className='w-70 h-70'></img>
+                    <img src={flat} alt='' className='w-70 h-70 sm:w-52 sm:h-52'></img>
                 </div>
             </div>
             <div className='flex flex-row justify-center gap-x-12 relative'>
