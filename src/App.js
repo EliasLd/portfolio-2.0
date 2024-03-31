@@ -10,8 +10,8 @@ function App() {
       <Nav />
       <Pres />
       <Desc />
-      <Projects />
       <Skills />
+      <Projects />
     </div>
   );
 }

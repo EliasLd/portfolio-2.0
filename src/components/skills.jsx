@@ -26,27 +26,28 @@ export default function Skills() {
 
 
   return (
-    <div className='flex justify-center items-center'>
-        <div className='grid grid-rows-2 lg:grid-cols-2  gap-x-5 justify-center   my-8 p-4 lg:w-144 sm:w-128  mx-4 sm:mx-0'>
-            <div className='flex flex-col gap-y-3 p-3 '>
+    <div className='flex justify-center items-center mt-20 flex-wrap'>
+        <div className='grid  lg:grid-cols-2 gap-y-4 lg:gap-x-5 justify-center p-4 lg:w-144 sm:w-128  mx-4 sm:mx-10'>
+            <div className='flex flex-col gap-y-3 p-3 rounded-2xl '>
                 <div className='flex justify-center items-center'>
                     <h2 className='font-sans font-semibold text-2xl text-white'>Languages & Frameworks</h2>
                 </div>
-                <div className='flex items-center p-3 rounded-2xl border b-slate-200'>
-                    <ul className='flex flex-row gap-2 justify-start flex-wrap mt-2'>
+                <div className='flex items-center p-3 rounded-2xl bg-white border-4 border-slate-300'>
+                    <ul className='flex flex-row gap-2 justify-start flex-wrap'>
                         {languages.map((language, index) => (
-                             <li key={index} className='text-md text-black font-inter font-semibold rounded-full bg-white px-2'>{language}</li>
+                             <li key={index} className='text-md text-slate-500 font-inter font-semibold rounded-full bg-slate-300 px-2'>{language}</li>
                         ))}
                     </ul>
                 </div>
             </div>
-            <div className='flex flex-col justify-center items-center p-2 rounded-2xl bg-slate-500'>
+            <div className='flex flex-col gap-y-8 p-2 '>
                 <div className='flex justify-center items-center'>
                     <h2 className='font-sans font-semibold text-2xl text-white'>Techs I use</h2>
                 </div>
-                {/* Ajoutez une classe pour définir la taille du conteneur du Slider */}
-                <div className='slider-container'>
+                <div className='flex justify-center items-center mb-6'>
+                    <div className='slider-container'>
                     <Slider />
+                </div>
                 </div>
             </div>
         </div>

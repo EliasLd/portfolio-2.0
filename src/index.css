@@ -63,6 +63,6 @@ code {
 }
 
 .slider-container {
-  width: 80%; /* Définissez la largeur que vous souhaitez pour le conteneur du Slider */
-  overflow: hidden; /* Assurez-vous que le contenu qui dépasse est masqué */
+  width: 100%;
+  overflow: hidden;
 }
