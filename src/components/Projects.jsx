@@ -22,7 +22,7 @@ export default function Projects() {
       ctrl.start("hidden");
     }
   }, [ctrl, inView]);
-  
+
   return (
     <div className='flex flex-col justify-center items-center mt-16'>
       <div className='mb-16'>

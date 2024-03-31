@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import Pres from "./components/Pres";
 import Desc from "./components/Desc";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Pres />
       <Desc />
       <Projects />
+      <Skills />
     </div>
   );
 }

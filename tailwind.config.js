@@ -15,7 +15,7 @@ export default {
       },
       spacing: {
         '128': '32rem',
-        '144': '70rem',
+        '144': '65rem',
       }
     },
     screens: {
