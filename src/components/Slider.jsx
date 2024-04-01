@@ -18,7 +18,7 @@ export default function Slider() {
           
           <div className="w-[200%] h-20  overflow-hidden relative">
            
-            <div className="w-[200%] flex items-center h-20 justify-around absolute left-0 animate gap-20 animate">
+            <div className="w-[200%] flex items-center h-20 justify-around absolute left-0 animate gap-10 sm:gap-20 animate">
              
               {techs.map((tech, i) => {
                 return (
