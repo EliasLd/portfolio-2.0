@@ -59,10 +59,11 @@ code {
 }
 
 .animate {
-  animation: scroll 5s linear infinite;
+  animation: scroll 15s linear infinite;
 }
 
 .slider-container {
   width: 100%;
   overflow: hidden;
+  position: relative;
 }

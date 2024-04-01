@@ -27,8 +27,8 @@ export default function Skills() {
 
   return (
     <div className='flex justify-center items-center mt-20 flex-wrap'>
-        <div className='grid  lg:grid-cols-2 gap-y-4 lg:gap-x-5 justify-center p-4 lg:w-144 sm:w-128  mx-4 sm:mx-10'>
-            <div className='flex flex-col gap-y-3 p-3 rounded-2xl '>
+        <div className='grid  lg:grid-cols-2 gap-y-8 lg:gap-x-5 justify-center p-4 lg:w-144 sm:w-128  mx-4 sm:mx-10'>
+            <div className='flex flex-col gap-y-8 p-3 rounded-2xl '>
                 <div className='flex justify-center items-center'>
                     <h2 className='font-sans font-semibold text-2xl text-white'>Languages & Frameworks</h2>
                 </div>
@@ -40,7 +40,7 @@ export default function Skills() {
                     </ul>
                 </div>
             </div>
-            <div className='flex flex-col gap-y-8 p-2 '>
+            <div className='flex flex-col gap-y-14 p-2 '>
                 <div className='flex justify-center items-center'>
                     <h2 className='font-sans font-semibold text-2xl text-white'>Techs I use</h2>
                 </div>

@@ -5,11 +5,13 @@ import { SiArchlinux } from "react-icons/si";
 import { FaUbuntu } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaDebian } from "react-icons/fa6";
+import { FaLinux } from "react-icons/fa6";
 import '../index.css'
 
 export default function Slider() {
 
-    const techs =[<BiLogoVisualStudio size={80} color='white' />, <SiArduino size={80} color='white'/>, <SiArchlinux size={80} color='white'/>, <FaUbuntu size={80} color='white'/>, <FaGitAlt size={80} color='white'/>, <FaGithub size={80} color='white'/>]
+    const techs =[<BiLogoVisualStudio size={80} color='white'/>, <SiArduino size={80} color='white'/>, <SiArchlinux size={80} color='white'/>, <FaUbuntu size={80} color='white'/>, <FaGitAlt size={80} color='white'/>, <FaGithub size={80} color='white'/>, <FaDebian size={80} color='white' />, <FaLinux size={80} color='white'/>]
 
     return (
         <div className=" flex items-center justify-center">
@@ -20,7 +22,7 @@ export default function Slider() {
              
               {techs.map((tech, i) => {
                 return (
-                  <div key={i} className="flex justify-center items-start w-[20rem]">
+                  <div key={i} className="flex justify-center items-start w-[20rem] transition">
                     {tech}
                   </div>
                 );
