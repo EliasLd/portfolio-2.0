@@ -10,7 +10,7 @@ export default function Skills() {
 
   const appearing = {
     visible: { opacity: 1, y:0,  transition: { duration: 0.5} },
-    hidden: { opacity: 0 , y:100},
+    hidden: { opacity: 0 , y: 100},
   };
 
   const ctrl = useAnimation();
@@ -41,8 +41,8 @@ export default function Skills() {
                 </div>
             </div>
             <div className='flex flex-col gap-y-14 p-2 '>
-                <div className='flex justify-center items-center'>
-                    <h2 className='font-sans font-semibold text-2xl text-white'>Techs I use</h2>
+                <div className='flex mt-1 justify-center items-center'>
+                    <h2 className='font-sans font-semibold text-2xl text-white '>Techs I use</h2>
                 </div>
                 <div className='flex justify-center items-center mb-6'>
                     <div className='slider-container'>
