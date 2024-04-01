@@ -32,7 +32,7 @@ export default function Skills() {
                 <div className='flex justify-center items-center'>
                     <h2 className='font-sans font-semibold text-2xl text-white'>Languages & Frameworks</h2>
                 </div>
-                <div className='flex items-center p-3 rounded-2xl bg-white border-2 border-slate-300'>
+                <div className='flex items-center p-3 rounded-2xl '>
                     <ul className='flex flex-row gap-2 justify-start flex-wrap'>
                         {languages.map((language, index) => (
                              <li key={index} className='text-md text-slate-500 font-inter font-semibold rounded-full bg-slate-300 px-2'>{language}</li>

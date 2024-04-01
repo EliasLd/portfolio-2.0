@@ -24,7 +24,7 @@ export default function Projects() {
   }, [ctrl, inView]);
 
   return (
-    <div className='flex flex-col justify-center items-center mt-4' id='projects'>
+    <div className='flex flex-col justify-center items-center mt-4 mb-10' id='projects'>
       <div className='mb-16'>
         <p className='font-sans font-bold text-white text-2xl'>My Projects</p>
       </div>
