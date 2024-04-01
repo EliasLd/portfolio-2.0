@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-2.0/static/css/main.dcac064d.css",
-    "main.js": "/portfolio-2.0/static/js/main.5c49ac2c.js",
+    "main.css": "/portfolio-2.0/static/css/main.e3fa7d99.css",
+    "main.js": "/portfolio-2.0/static/js/main.c41b553f.js",
     "static/media/designPortfolio.jpg": "/portfolio-2.0/static/media/designPortfolio.b081228f78cc8acb2e7d.jpg",
     "static/media/sourcejob.png": "/portfolio-2.0/static/media/sourcejob.c658d517d58fd056c1a7.png",
     "static/media/ESPMEDIA.png": "/portfolio-2.0/static/media/ESPMEDIA.d0bed0036e646692aeca.png",
@@ -13,11 +13,11 @@
     "static/media/arch.svg": "/portfolio-2.0/static/media/arch.434f20a3ece43c3aec8d.svg",
     "index.html": "/portfolio-2.0/index.html",
     "static/media/vscode.svg": "/portfolio-2.0/static/media/vscode.c95ccce217b9216b7657.svg",
-    "main.dcac064d.css.map": "/portfolio-2.0/static/css/main.dcac064d.css.map",
-    "main.5c49ac2c.js.map": "/portfolio-2.0/static/js/main.5c49ac2c.js.map"
+    "main.e3fa7d99.css.map": "/portfolio-2.0/static/css/main.e3fa7d99.css.map",
+    "main.c41b553f.js.map": "/portfolio-2.0/static/js/main.c41b553f.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcac064d.css",
-    "static/js/main.5c49ac2c.js"
+    "static/css/main.e3fa7d99.css",
+    "static/js/main.c41b553f.js"
   ]
 }
