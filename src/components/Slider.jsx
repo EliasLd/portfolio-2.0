@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import '../index.css';
+
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { SiArduino } from "react-icons/si";
 import { SiArchlinux } from "react-icons/si";
@@ -7,7 +9,6 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaDebian } from "react-icons/fa6";
 import { FaLinux } from "react-icons/fa6";
-import '../index.css'
 
 export default function Slider() {
 

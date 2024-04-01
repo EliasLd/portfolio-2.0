@@ -15,7 +15,7 @@ export default function Pres() {
   return (
     <div className='flex justify-center mt-10'>
         <div className='flex flex-col gap-y-8'>
-            <div className=' text-md sm:text-3xl font-sans font-bold text-blue-300'>
+            <div className=' text-md sm:text-3xl font-sans font-bold text-blue-300' id='about'>
                 <TypeAnimation
                     sequence={[
                       "Hi, I'm Elias !",
@@ -68,7 +68,7 @@ export default function Pres() {
                         )}
                     </a>
                 </div>
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center' id='skills'>
                     <a href={process.env.PUBLIC_URL + '/CV.pdf'} download className='flex justify-center'>
                         <MdOutlineFileDownload 
                             size={30} color='white' className='cursor-pointer'
