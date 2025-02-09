@@ -33,7 +33,7 @@ export default function Pres() {
                 />
             </div>
             <div className='flex justify-center'>
-                <p className='font-inter font-semibold text-md sm:text-xl text-slate-400'>Engineering student</p>
+                <p className='font-inter font-semibold text-md text-center sm:text-xl text-slate-400'>Engineering student <br/>Apprentice software engineer </p>
             </div>
             <div className='flex justify-center'>
                 <div className='px-3 rounded-full bg-sky-900'>

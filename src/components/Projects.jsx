@@ -36,6 +36,9 @@ export default function Projects() {
                   <ProjectBox key={`${i}-${project.name}`} project={project} />
               </div>
             ))}
+            <div className='m-1 sm:m-5'>
+              <p className='font-sans font-bold text-white text-2xl text-center'>More projects will be added soon...</p>
+            </div>
         </div>
       </motion.div>
     </div>
